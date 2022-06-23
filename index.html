@@ -3,11 +3,79 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+
+  <title>Donovan Polk - Developer, Musician, Educator</title>
 </head>
+
 <body>
-  <div>
-    <p>My first github.io paragraph!</p>
-  </div>
+  
+  <header id="hero-top">
+    <h1 id="hero-top-h1">Developer - Musician - Educator</h1>
+  </header>
+  
+  <div id="hero-divider"></div>
+
+  <main id="hero-main">
+    <div id="hero-main-socials">
+      <img src="./resources/DonPo_DevMemoji.png" id="hero-main-socials-img" alt="A memoji representation of Donovan.">
+    
+      <div id="hero-main-socials-btns">
+        <a href="http://linkedin.com/in/donovanpolk" target="_blank"><img src="./resources/In-Black-48px-R.png" id="hero-main-socials-btns-ln" alt="A small logo of LinkedIn"></a>
+        <a href="http://github.com/donomon" target="_blank"><img src="./resources/GitHub-Mark-64px.png" id="hero-main-socials-btns-gh" alt="A small logo of Github"></a>
+      </div>
+      
+      <div id="hero-main-socials-qoute">
+        <h2 id="hero-main-socials-qoute-h2">“Imagine how you want to feel at the end of the day. 
+          Start working towards that now.”</h2>
+        <h3 id="hero-main-socials-qoute">- Lin-Manuel Miranda</h3>
+      </div>
+    </div>
+
+    <div id="hero-main-projects">
+      <h2 id="hero-main-projects-h2">Current Project</h2>
+
+      <div id="hero-main-projects-card">
+        <h3 id="hero-main-projects-card-h3"></h3>
+        <img id="hero-main-projects-card-img" alt="The curernt project that Donovan is working on.">
+        <p id="hero-main-projects-card-paragraph">Description</p>
+      </div>
+
+      <button id="hero-main-projects-btn" onclick="viewProjects()">More Projects</button>
+
+    </div>
+
+    <div id="hero-main-abt">
+
+      <h2 id="hero-main-abt-h2">Who is Donovan?</h2>
+
+      <div id="hero-main-abt-text-container">
+        <p id="hero-main-abt-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, massa eu sodales mollis, lorem sapien vulputate ligula, 
+          dignissim maximus sem turpis vel ligula. Class aptent taciti sociosqu ad litora torquent per conubia 
+          nostra, per inceptos himenaeos. Maecenas augue nulla, bibendum finibus urna eu, volutpat molestie lorem. 
+          Fusce libero ligula, gravida vitae blandit eu, tempus vel erat. Praesent ac dignissim est, a blandit arcu. 
+          Aenean commodo, odio non interdum efficitur, est sapien venenatis eros, a venenatis mauris eros sit amet augue. Quisque tincidunt pharetra ex, aliquet tincidunt mi ullamcorper ac.
+           Quisque sit amet laoreet velit. Cras ut diam volutpat, fermentum nisl ac, egestas metus. Donec in purus nibh. Mauris faucibus facilisis magna vitae dignissim. 
+           Curabitur laoreet augue sed mi dictum sodales. Ut viverra dictum est sed commodo.
+        </p>
+        <p id="hero-main-abt-text">
+          Nunc tristique placerat mauris. Integer sit amet ornare magna. Vivamus fermentum nisl ut gravida ultrices. Sed hendrerit tortor nec pulvinar scelerisque. 
+          Curabitur sit amet efficitur nulla. Aliquam magna risus, vulputate non condimentum ac, pellentesque vitae purus. Sed interdum sed lectus eu tincidunt. 
+          Curabitur quam diam, placerat quis orci vel, lacinia vehicula dui. Vivamus lorem metus, accumsan vel enim id, egestas facilisis est. Proin sed tellus interdum, mollis purus a, commodo massa. 
+          Aliquam elementum quam a feugiat tempor. Quisque nunc nulla, euismod eu ipsum ac, aliquam pretium lacus.
+        </p>
+      </div>
+    </div>
+  </main>
+  
+  <footer id="footer">
+    <p id="footer-text">Webpage designed and developed by Donovan Polk</p>
+  </footer>
+
+  <script src="./index.js"></script>
 </body>
 </html>
